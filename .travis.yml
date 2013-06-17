@@ -1,0 +1,9 @@
+language: python
+python: 3.3
+
+install:
+    - "sudo apt-get install ksh"
+    - "sudo apt-get install zsh"
+    - "sudo apt-get install pdksh"
+
+script: test/shunit_test.sh
