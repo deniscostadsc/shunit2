@@ -14,6 +14,8 @@
 MY_NAME=`basename $0`
 MY_PATH=`dirname $0`
 
+cd $MY_PATH
+
 PREFIX='shunit2_test_'
 SHELLS='/bin/sh /bin/bash /bin/dash /bin/ksh /bin/pdksh /bin/zsh'
 TESTS=''
