@@ -24,4 +24,4 @@ oneTimeSetUp()
 }
 
 # load and run shUnit2
-. ../src/shunit2
+. ../shunit2

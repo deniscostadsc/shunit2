@@ -14,4 +14,4 @@ testPartyLikeItIs1999()
 }
 
 # load shunit2
-. ../src/shunit2
+. ../shunit2

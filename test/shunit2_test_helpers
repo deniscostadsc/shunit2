@@ -19,7 +19,7 @@ set -u
 #
 
 # path to shUnit2 library. can be overridden by setting SHUNIT_INC
-TH_SHUNIT=${SHUNIT_INC:-./shunit2}
+TH_SHUNIT=${SHUNIT_INC:-../shunit2}
 
 # configure debugging. set the DEBUG environment variable to any
 # non-empty value to enable debug output, or TRACE to enable trace
